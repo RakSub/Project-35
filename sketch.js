@@ -30,6 +30,11 @@ background(46,139,87);
   if(keyDown(UP_ARROW)){
     writeStock(foodS);
     dog.addImage(happyDogImage);
+    //setTimeout(3000000000);
+    
+    }else{
+      dog.addImage(dogImage);
+      
     }
 
 
